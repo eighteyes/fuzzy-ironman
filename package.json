@@ -1,0 +1,25 @@
+{
+  "name": "mobmen",
+  "version": "0.0.1",
+  "description": "some stuff to test",
+  "main": "index.js",
+  "dependencies": {
+    "async": "~0.2.9",
+    "handlebars": "~1.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eighteyes/fuzzy-ironman.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "gitHead": "f4ec4913e83ea4c7d1d312a2ff637909fe7aed8f",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/eighteyes/fuzzy-ironman/issues"
+  }
+}
