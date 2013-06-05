@@ -1,5 +1,8 @@
+var load = require('./helpers/load')
+  , sql = require('./helpers/sql')
+
 exports.up = function(next){
-  sql('./sql/002-up-customers.sql', next);
+  load('002-up-customers.sql', next);
 };
 
 exports.down = function(next){
