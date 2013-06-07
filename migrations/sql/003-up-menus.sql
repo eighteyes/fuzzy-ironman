@@ -5,6 +5,7 @@ CREATE TABLE IF NOT EXISTS `menus` (
   , `locationId`      VARCHAR(16)      NOT NULL
   , `json`            TEXT             NOT NULL
   , `url`             VARCHAR(255)     NOT NULL
+  , `template`        VARCHAR(255)     NOT NULL
 
   , PRIMARY KEY (`id`)
 )

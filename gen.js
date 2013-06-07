@@ -12,14 +12,14 @@ db.serialize(function() {
   console.log(JSON.stringify(fakeMenu));
   var json = JSON.stringify(fakeMenu);
 
-  query = db.prepare('INSERT INTO menus values (?, ?, ?, ?, ?)');
-  query.run(1,1,1,json,'some-place');
+  query = db.prepare('INSERT INTO menus values (?, ?, ?, ?, ?, ?)');
+  query.run(1,1,1,json,'bobs-grill','test');
   query.finalize();
 
   json = JSON.stringify(fakeHours);
 
   query = db.prepare('INSERT INTO locations values (?, ?, ?, ?, ?, ?)');
-  query.run(1,1,1,json,'some-place','123-456-7123');
+  query.run(1,1,1,json,'bobs-grill-downtown','123-456-7123');
   query.finalize();
 
   db.get('SELECT * FROM locations', function(err, res){
