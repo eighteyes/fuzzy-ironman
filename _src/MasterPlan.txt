@@ -1,0 +1,25 @@
+Plan
+
+Finish MVP 6/23
+- Email Workflow
+- Admin Workflow
+- NGNIX Server
+- On Site JavaScript
+
+
+Sign up 10 beta customers 7/4
+- Type up apps for potential customers
+
+
+Iterate product, advance features 7/14
+
+Make sales site 7/21
+
+Conduct advertising 8/1
+
+Make search site 8/1
+
+Do consumer beta reachout 8/4
+
+
+
