@@ -2,14 +2,18 @@ var fs = require('fs')
 , util = require('util');
 
 
-module.exports = function parseEmail( email ){
+module.exports = function parseEmail( email, cb ){
 
-  testStr = data.replace(/\n+/g, '');
+  testStr = email.replace(/\n+/g, '');
   indices = {};
-  menu = {};
 
   indices.start = testStr.indexOf("=== BEGIN MENU ===") + 18;
   indices.end = testStr.indexOf("=== END MENU ===");
+
+
+  if ( indices.start == -1 + 18) {
+    return cb(new Error("Improper Menu Format"));
+  }
 
   testStr = testStr.slice(indices.start, indices.end);
   sections = testStr.split("==").slice(1);
@@ -36,11 +40,12 @@ module.exports = function parseEmail( email ){
     }
     repObj.items = items;
     repObj.name = thisSect.slice(0, thisSect.indexOf('--')).trim();
+
+    //force to integer
     repObj.order = +i + 1;
-    //ooh ballsy
+
     sections[i] = repObj;
   }
-}
-//fs.readFile("../exports/some-place.html", {encoding:'ascii'}, function(err, data){
 
-  // lookup target menu by encoded id
+  return cb(null, { sections: sections });
+};

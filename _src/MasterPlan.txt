@@ -1,11 +1,47 @@
-Plan
+Business Plan
+
+Mission Statement:
+ MMenus provides resturaunt owners and chefs a tool to easily update their menus and make them accessible to customers.
+
+Concept:
+MMenus is a Software as a Service product that operates from an interplay between has two elements:
+1) Software on a resturaunt website that detects a mobile visitor and provides a navigation overlay to common user tasks, mapping a location, calling a phone and accessing menus managed by the second element.
+2) Menu Management software handles the content of a menu which consists of pictures, names, prices, categories (Appetizers, Entrees, etc) and descriptions. These can be updated on a secure website, or through regular email updates to the menu.
+
+Potential customers trying to learn about an eatery will likely try to access the menu with a mobile phone. Universally, this is a process fraught with peril, for customers and resturaunt owners. Customers must download PDF's or attempt to read a website which is poorly formatted for mobile phones. Owners must update PDF files or work through a third party developer to update their menus.
+
+
+MMenus addresses this by providing a menu service which does not replace their existing website, focuses purely on providing high-quality, easy to update menus.
+
+Resturaunts with a menu which is formatted for mobile phones will likely be chosen by a customer merely because it's easy to access the content.
+
+Most customers would be regular monthly subscriptions, some would require extra design or custom features, which would incur additional upfront/setup charges.
+
+There are over 300,000 independently owned resturaunts in the US alone, and this software could easily be adapted for foreign language. Working with chains is a possibility, but it's likely it will be for a custom integration.
+
+Marketing
+
+
+
+
+
+Objectives:
+
+
+
+
+  By inputting the menu items into a database we can automate
+
+General:
+- Determine fair cost
+- Research prospective customers
+- Find tech support, server admins and data entry
 
 Finish MVP 6/23
 - Email Workflow
 - Admin Workflow
 - NGNIX Server
 - On Site JavaScript
-
 
 Sign up 10 beta customers 7/4
 - Type up apps for potential customers

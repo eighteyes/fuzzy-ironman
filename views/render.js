@@ -1,3 +1,8 @@
+/*
+USAGE: render('test', menuData, cb)
+RETURN: string of text + vars
+*/
+
 var fs = require('fs')
   , hb = require('handlebars')
 

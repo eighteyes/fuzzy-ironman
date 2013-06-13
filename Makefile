@@ -15,5 +15,8 @@ rebuild:
 	migrate up
 	node gen.js
 
+test:
+	mocha -R spec tests/test.js
+
 .PHONY: menu
 .PHONY: rebuild
