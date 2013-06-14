@@ -144,7 +144,7 @@
   <task id="t5">
     <title>Admin Workflow</title>
     <type>group</type>
-    <start-constraint-date>2013-06-13T04:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-13T17:00:00.000Z</start-constraint-date>
     <child-task idref="t40"/>
     <child-task idref="t3"/>
   </task>
@@ -161,6 +161,15 @@
     <child-task idref="t52"/>
     <child-task idref="t53"/>
     <child-task idref="t54"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>Vagrant VM</lit>
+          </run>
+        </p>
+      </text>
+    </note>
     <prerequisite-task idref="t6"/>
     <prerequisite-task idref="t44"/>
   </task>
@@ -298,8 +307,9 @@
   </task>
   <task id="t42">
     <title>Start with tests</title>
-    <effort>7200</effort>
-    <start-constraint-date>2013-06-08T21:00:00.000Z</start-constraint-date>
+    <effort>10800</effort>
+    <effort-done>10800</effort-done>
+    <start-constraint-date>2013-06-12T19:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-size">13</value>
     </style>
@@ -307,7 +317,17 @@
   <task id="t43">
     <title>run email server</title>
     <effort>14400</effort>
-    <start-constraint-date>2013-06-08T23:00:00.000Z</start-constraint-date>
+    <effort-done>10800</effort-done>
+    <start-constraint-date>2013-06-12T23:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>still have to put in db</lit>
+          </run>
+        </p>
+      </text>
+    </note>
     <style>
       <value key="font-size">13</value>
     </style>

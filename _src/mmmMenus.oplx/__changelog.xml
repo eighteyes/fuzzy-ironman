@@ -487,6 +487,25 @@
     root = 48;
 }" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Sean Canton" date="2013-06-14T00:38:48.533Z" timestamp="2013-06-14T00:38:48.533Z">
+    <change idref="t5" attribute="startConstraintDate" type="date" from="2013-06-13T04:00:00.000Z" to="2013-06-13T17:00:00.000Z" resolved="yes"/>
+    <change idref="t7" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMTM4XGNvY29hc3VicnRmNTEwCntcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQyN1xncmVlbjIwNlxibHVlMjM2O1xyZWQ0MFxncmVlbjQwXGJsdWU0MDt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbAoKXGYwXGZzMjIgXGNmMiBcY2IzIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIFZhZ3JhbnQgVk19" resolved="yes"/>
+    <change idref="t42" attribute="startConstraintDate" type="date" from="2013-06-08T21:00:00.000Z" to="2013-06-12T19:00:00.000Z" resolved="yes"/>
+    <change idref="t42" attribute="effort" type="real" from="7200" to="10800" resolved="yes"/>
+    <change idref="t42" attribute="internalEffortDone" type="real" from="0" to="10800" resolved="yes"/>
+    <change idref="t43" attribute="startConstraintDate" type="date" from="2013-06-08T23:00:00.000Z" to="2013-06-12T23:00:00.000Z" resolved="yes"/>
+    <change idref="t43" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMTM4XGNvY29hc3VicnRmNTEwCntcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQyN1xncmVlbjIwNlxibHVlMjM2O1xyZWQ0MFxncmVlbjQwXGJsdWU0MDt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbAoKXGYwXGZzMjIgXGNmMiBcY2IzIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIHN0aWxsIGhhdmUgdG8gcHV0IGluIGRifQ==" resolved="yes"/>
+    <change idref="t43" attribute="internalEffortDone" type="real" from="0" to="10800" resolved="yes"/>
+    <change idref="t48" attribute="criticalPathProperties" type="dict" to="{
+    color =     {
+        h = &quot;0.6&quot;;
+        s = &quot;0.5&quot;;
+        v = &quot;0.8&quot;;
+    };
+    enabled = 1;
+    root = 48;
+}" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Sean Canton" date="2013-06-12T10:15:24.864Z" timestamp="2013-06-12T10:15:24.864Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="50400,61200;36000,46800,50400,64800,75600,79200;36000,46800,50400,64800,75600,79200;36000,46800,50400,64800,75600,79200;36000,46800,50400,64800,75600,79200;36000,46800,50400,64800,75600,79200;21600,32400" resolved="yes"/>
     <change idref="r2" to="r-1" to-position="1" resolved="yes">
@@ -566,6 +585,23 @@
         g = &quot;0.301961&quot;;
         r = &quot;0.847059&quot;;
     };
+}" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Sean Canton" date="2013-06-14T00:38:48.532Z" timestamp="2013-06-14T00:38:48.532Z">
+    <change idref="m1" attribute="noteStyle" type="dict" from="{
+    &quot;font-family&quot; = Helvetica;
+    &quot;font-fill&quot; =     {
+        w = &quot;0.334677&quot;;
+    };
+    &quot;font-size&quot; = 11;
+}" to="{
+    &quot;font-family&quot; = Helvetica;
+    &quot;font-fill&quot; =     {
+        b = &quot;0.926715&quot;;
+        g = &quot;0.806063&quot;;
+        r = &quot;0.104718&quot;;
+    };
+    &quot;font-size&quot; = 11;
 }" resolved="yes"/>
   </metadata-change-set>
 </changelog>

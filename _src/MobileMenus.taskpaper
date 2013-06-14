@@ -1,0 +1,51 @@
+
+
+dev	4d 7h
+	 Finish Email Workflow	7h
+		Start with tests	3h
+		run email server	4h
+	Admin Workflow	1d 7h
+		CRUD Records	3h
+		- Backbone Integration
+			- Sync
+			- Do actions
+		- serve to express / mongoose
+			- models
+				- customer
+				- user
+				- location
+				- menu
+				- 
+		Sessions + Users	1d 4h
+	Mobile Skins	2d 1h
+		scripts	1d 2h
+			generic	6h
+			clientside	4h
+		styles	5h
+		structures	2h
+ops	4d 1h
+https://github.com/mitchellh/vagrant-aws
+Amazon web services
+	NGNIX integration	4h
+	Research hosting options	2h
+	Develop scale strategy	3h
+	Deploy	2d 3h
+		Email	1d
+		NGNIX	1d
+		VM's	3h
+	Payment Options	5h
+		Find Square	1h
+		Implement Recurly	4h
+Marketing Materials	1d 4h
+	naming	3h
+	Biz  cards	3h
+	Website	3h
+	content	3h
+Customer Acquisition	
+admin	3d 3h
+	go after mentors	1d
+	talk to cpa	4h
+	deal with forms	4h
+	submit forms	3h
+	cash checks	1d
+Launch Beta / Iterate	
