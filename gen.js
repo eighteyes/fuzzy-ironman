@@ -1,30 +1,24 @@
-var sqlite3 = require('sqlite3').verbose()
-  , db = new sqlite3.Database('data.sql3')
+var mobmen = require('mobmen')
   , fakeMenu = require('./fakes/menu')
   , fakeHours = require('./fakes/hours')
+  , util = require('util')
+  , mongoose = require('mongoose')
 
+mongoose.connect('mongodb://localhost/mobileMenus');
 
-db.serialize(function() {
-  var query = db.prepare("INSERT INTO customers VALUES (?,?,?,?,?)");
-  query.run(1, 'Bubba Gump', 1, 'asd', 'foo');
-  query.finalize();
+mobmen.init(function(){
+  require('./models');
+  var items = [];
 
-  console.log(JSON.stringify(fakeMenu));
-  var json = JSON.stringify(fakeMenu);
-
-  query = db.prepare('INSERT INTO menus values (?, ?, ?, ?, ?, ?)');
-  query.run(1,1,1,json,'bobs-grill','test');
-  query.finalize();
-
-  json = JSON.stringify(fakeHours);
-
-  query = db.prepare('INSERT INTO locations values (?, ?, ?, ?, ?, ?)');
-  query.run(1,1,1,json,'bobs-grill-downtown','123-456-7123');
-  query.finalize();
-
-  db.get('SELECT * FROM locations', function(err, res){
-    console.log(err, res);
+  var menu = new mobmen.menus( {
+    json: JSON.stringify(fakeMenu),
+    created: Date.now(),
+    updated: Date.now()
   });
 
-  db.close();
+  console.log(menu)
+  menu.save(function(err){
+    if (err) { return console.error(err); }
+    else { return console.log('Saved'); }
+  });
 });

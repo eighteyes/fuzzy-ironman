@@ -14,7 +14,7 @@ var Sections = new Schema({
     order: Number,
     description: String,
     items: [Items]
-})
+});
 
 var Menu = new Schema({
   owner: ObjectId,

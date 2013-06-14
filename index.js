@@ -22,10 +22,7 @@ mobmen.init(function(){
 
 
   app.configure(function () {
-    app.use(function(err, req, res, next){
-      console.log("hey");
-      next();
-    });
+
     app.use(express.bodyParser());
     app.use(express.logger('dev'));
     app.use(express.methodOverride());
@@ -36,13 +33,36 @@ mobmen.init(function(){
     app.use(express.static(path.join(__dirname, "exports")));
 
     app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
-    console.log(app.routes);
+
   });
 
 
   app.get('/', function( req, res ){
     res.sendfile(mobmen.conf.publicDir + '/index.html');
   });
+
+  app.get('/api', function( req, res ){
+    res.send('API is running');
+  });
+
+  app.get('/api/menus', function(){
+    return mobmen.menus.find(function (err, menus){
+      if (err) return console.log(err);
+      else {
+        return res.send(menus);
+      }
+    })
+  });
+
+  app.get('/api/locations', function(){
+
+  });
+
+  app.get('/api/customers', function(){
+
+  });
+
+
 
   require('./models');
   require('./mail');
