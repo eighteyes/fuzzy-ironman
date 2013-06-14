@@ -1,29 +1,49 @@
 var http = require('http')
-  , events = require('events')
-  , hb = require('handlebars')
   , fs = require('fs')
   , util = require('util')
   , exists = require('./plugins').exists
-  , app = require('express')
+  , express = require('express')
+  , app = express()
   , mobmen = require('mobmen')
+  , path = require('path')
 
 mobmen.init(function(){
-  require('./models');
-});
+  mobmen.conf.webPort = 8124;
+  mobmen.conf.smtpPort = 587;
+  mobmen.conf.publicDir = path.join(__dirname, "public", "app")
+
+  // start server
+  http.createServer(app).listen(mobmen.conf.webPort, function(err) {
+      console.log(
+        'server (%s): %s',
+        mobmen.conf.webPort,
+        ( exists(err) ) ? err : ' started' )
+      });
 
 
-webPort = 8124;
-smtpPort = 587;
-
-var server = http.createServer(function(req, res) {
-  res.writeHead(200, {'Content-Type': 'text/html'});
-  render( 'test', testData, function( err, data ){
-    if (err) console.error(err);
-    console.log(data);
-    res.end(data);
-    fs.writeFile('exports/test.html', data, function(err){
-      if (err) throw err;
-      console.log("saved!");
+  app.configure(function () {
+    app.use(function(err, req, res, next){
+      console.log("hey");
+      next();
     });
+    app.use(express.bodyParser());
+    app.use(express.logger('dev'));
+    app.use(express.methodOverride());
+    app.use(app.router);
+    app.use(express.static(mobmen.conf.publicDir));
+
+    // TODO: replace with ngnix front - serves exports dir
+    app.use(express.static(path.join(__dirname, "exports")));
+
+    app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
+    console.log(app.routes);
   });
-}).listen(webPort, function(err) { console.log('server (%s): %s', webPort, ( exists(err) ) ? err : ' started' )});
+
+
+  app.get('/', function( req, res ){
+    res.sendfile(mobmen.conf.publicDir + '/index.html');
+  });
+
+  require('./models');
+  require('./mail');
+});

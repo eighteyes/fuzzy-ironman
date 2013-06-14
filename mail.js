@@ -1,4 +1,5 @@
-
+var mobmen = require('mobmen')
+  , exists = require('./plugins/utils').exists
 
 
 var Stream = require('stream');
@@ -29,7 +30,8 @@ var simplesmtp = require("simplesmtp");
 var smtp = simplesmtp.createServer();
 var parse = require("./plugins/parseEmail");
 
-smtp.listen(smtpPort, function(err) { console.log('mailer (%s): %s', smtpPort, ( exists(err) ) ? err : ' started' ); });
+smtp.listen(mobmen.conf.smtpPort, function(err) {
+    console.log('mailer (%s): %s', mobmen.conf.smtpPort, ( exists(err) ) ? err : ' started' ); });
 
 smtp.on("startData", function (connection) {
     raw = "";
