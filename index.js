@@ -6,8 +6,13 @@ var http = require('http')
   , app = express()
   , mobmen = require('mobmen')
   , path = require('path')
+  , mongoose = require('mongoose')
 
 mobmen.init(function(){
+
+
+  mongoose.connect('mongodb://localhost/mobileMenus');
+
   mobmen.conf.webPort = 8124;
   mobmen.conf.smtpPort = 587;
   mobmen.conf.publicDir = path.join(__dirname, "public", "app")
@@ -37,21 +42,37 @@ mobmen.init(function(){
   });
 
 
-  app.get('/', function( req, res ){
+  app.get('/', function ( req, res ){
     res.sendfile(mobmen.conf.publicDir + '/index.html');
   });
 
-  app.get('/api', function( req, res ){
+  app.get('/api', function ( req, res ){
     res.send('API is running');
   });
 
-  app.get('/api/menus', function(){
+  app.get('/api/menus', function ( req, res ){
     return mobmen.menus.find(function (err, menus){
-      if (err) return console.log(err);
+      if (err) { return console.log(err); }
       else {
         return res.send(menus);
       }
-    })
+    });
+  });
+
+  app.post('/api/menus', function ( req, res ){
+    console.log('POST:', req.body);
+    var menu = new mobmen.menus({
+      owner: req.body.userId,
+      location: req.body.locationId,
+      json: req.body.json,
+      created: Date.now(),
+      updated: Date.now()
+    });
+    menu.save( function(err){
+      if (err) return console.log(err)
+      console.log("menu created");
+    });
+    return res.send(menu);
   });
 
   app.get('/api/locations', function(){
@@ -61,8 +82,6 @@ mobmen.init(function(){
   app.get('/api/customers', function(){
 
   });
-
-
 
   require('./models');
   require('./mail');

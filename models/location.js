@@ -7,7 +7,8 @@ var Location = new Schema({
   owner: ObjectId,
   menu: ObjectId,
   hours: String,
-  phone: String
+  phone: String,
+  cuisine: String
 });
 
 module.exports = Location;

@@ -318,7 +318,7 @@
   <task id="t43">
     <title>run email server</title>
     <split/>
-    <effort>14400</effort>
+    <effort>25200</effort>
     <effort-done>10800</effort-done>
     <child-task idref="t58"/>
     <child-task idref="t59"/>
@@ -403,8 +403,8 @@
   </task>
   <task id="t59">
     <title>run email server</title>
-    <effort>3600</effort>
-    <start-constraint-date>2013-06-14T23:00:00.000Z</start-constraint-date>
+    <effort>14400</effort>
+    <start-constraint-date>2013-06-18T18:00:00.000Z</start-constraint-date>
     <note>
       <text>
         <p>

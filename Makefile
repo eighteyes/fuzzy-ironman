@@ -10,13 +10,14 @@ menu:
 	@$(PRINT) $(PRINTFLAGS)
 
 rebuild:
-	migrate down
-	@echo ""
-	migrate up
 	node gen.js
 
 test:
 	mocha -R spec tests/test.js
 
+mm:
+	sudo nodev index.js
+
 .PHONY: menu
 .PHONY: rebuild
+.PHONY: mm

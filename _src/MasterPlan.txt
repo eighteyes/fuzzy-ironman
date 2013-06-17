@@ -19,9 +19,20 @@ Most customers would be regular monthly subscriptions, some would require extra 
 
 There are over 300,000 independently owned resturaunts in the US alone, and this software could easily be adapted for foreign language. Working with chains is a possibility, but it's likely it will be for a custom integration.
 
-Marketing
+Stage 1:
+Complete Data Service:
+Inputs: Email, CRM
+Outputs: Mobile Websites, JSON
+Touchpoints: QR Code, Resturaunt Website
 
+Stage 2:
+Customer Experience:
+Application for Android and iOS
+Touchpoints: QR Code, Resturaunt Website, App
 
+Tiers
+Menu hosting / in app - $9 / month
+Website redirect - $20 / month
 
 
 

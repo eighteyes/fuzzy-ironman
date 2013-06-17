@@ -1,1 +1,0 @@
-{"migrations":[{"title":"migrations/001-init.js"},{"title":"migrations/002-customers.js"},{"title":"migrations/003-menus.js"},{"title":"migrations/004-locations.js"}],"path":"migrations/.migrate","pos":4,"_events":{}}
