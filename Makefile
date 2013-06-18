@@ -16,7 +16,8 @@ test:
 	mocha -R spec tests/test.js
 
 mm:
-	sudo nodev index.js
+	sudo nodev index.js && open http://localhost:8124
+
 
 .PHONY: menu
 .PHONY: rebuild

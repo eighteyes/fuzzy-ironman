@@ -11,25 +11,16 @@
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="styles/main.css">
-        <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="components/modernizr/modernizr.js"></script>
-        <!-- endbuild -->
     </head>
     <body>
-        <div class="container">
-            <div class="hero-unit">
-                <h1>'Allo, 'Allo!</h1>
-                <p>You now have</p>
-                <ul>
-                    <li>Twitter Bootstrap</li>
-                    <li>HTML5 Boilerplate</li>
-                    <li>jQuery</li>
-                    <li>Backbone.js</li>
-                    <li>Underscore.js</li>
-                </ul>
-                <p>installed.</p>
-                <h3>Enjoy coding! - Yeoman</h3>
-            </div>
+
+      <script type="text/x-handlebars-template" id="menu-template">
+        <p>Style:{{style}}</p>
+        <p>Sections: {{#each sections}} {{this.name}} {{/each}} </body>
+      </script>
+
+        <div class="container" id="container">
+
         </div>
 
         <!--[if lt IE 7]>
@@ -45,9 +36,10 @@
         </script>
 
         <!-- build:js scripts/vendor.js -->
-        <script src="components/jquery/jquery.min.js"></script>
-        <script src="components/underscore/underscore-min.js"></script>
-        <script src="components/backbone/backbone-min.js"></script>
+        <script src="components/jquery/jquery.js"></script>
+        <script src="components/underscore/underscore.js"></script>
+        <script src="components/backbone/backbone.js"></script>
+        <script src="components/handlebars/handlebars.js"></script>
         <!-- endbuild -->
 
         <!-- build:js scripts/plugins.js -->
@@ -68,7 +60,6 @@
 
         <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
-        <script src="scripts/templates.js"></script>
         <!-- endbuild -->
 </body>
 </html>

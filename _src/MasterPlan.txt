@@ -4,69 +4,47 @@ Mission Statement:
  MMenus provides resturaunt owners and chefs a tool to easily update their menus and make them accessible to customers.
 
 Concept:
-MMenus is a Software as a Service product that operates from an interplay between has two elements:
-1) Software on a resturaunt website that detects a mobile visitor and provides a navigation overlay to common user tasks, mapping a location, calling a phone and accessing menus managed by the second element.
-2) Menu Management software handles the content of a menu which consists of pictures, names, prices, categories (Appetizers, Entrees, etc) and descriptions. These can be updated on a secure website, or through regular email updates to the menu.
+  MMenus is a Software as a Service product that comprises of:
 
-Potential customers trying to learn about an eatery will likely try to access the menu with a mobile phone. Universally, this is a process fraught with peril, for customers and resturaunt owners. Customers must download PDF's or attempt to read a website which is poorly formatted for mobile phones. Owners must update PDF files or work through a third party developer to update their menus.
+  1) Service Widget: Software on a resturaunt website that detects a mobile visitor and provides a navigation overlay to common user tasks, mapping a location, calling a phone and accessing menus managed by the second element.
 
+  2) Menu Management: Software which handles the content of a menu which consists of pictures, names, prices, categories (Appetizers, Entrees, etc) and descriptions. These can be updated on a secure website, or through regular email updates to the menu. Menus will always be available as a website, or as a JSON data stream.
 
-MMenus addresses this by providing a menu service which does not replace their existing website, focuses purely on providing high-quality, easy to update menus.
+  3) Mobile Phone Application: Provides a second entry point to the menus, allowing users to search by cuisine, location, menu items, resturaunt name or proximity.
 
-Resturaunts with a menu which is formatted for mobile phones will likely be chosen by a customer merely because it's easy to access the content.
+Opportunities:
+  There is no comprehensive menu management software which targets mobile audiences. This is timely and can be quickly executed within a matter of months.
 
-Most customers would be regular monthly subscriptions, some would require extra design or custom features, which would incur additional upfront/setup charges.
+  Consumer experience of resturaunt websites, especially menus and mobile phones, is universally poor. Providing a high-quality, mobile menu that can be easily updated provides a distinguishing element for a resturaunt owner to stand out to a discerning consumer.
 
-There are over 300,000 independently owned resturaunts in the US alone, and this software could easily be adapted for foreign language. Working with chains is a possibility, but it's likely it will be for a custom integration.
+Disadvantages:
+  - Enabling the Service Widget will involve working with a third party to place the widget on a resturaunt website.
+  - The application will need to have users and menus to be useful. Users won't sign up unless there are menus, and resturaunt owners won't sign up unless there are users. This mandates an intermediate step, proving the utility of the concept and building traction amongst users and owners.
+
+Project Plan
 
 Stage 1:
-Complete Data Service:
+Complete Data Service
 Inputs: Email, CRM
-Outputs: Mobile Websites, JSON
-Touchpoints: QR Code, Resturaunt Website
 
 Stage 2:
-Customer Experience:
+Basic Product
+Outputs: Mobile Websites, JSON
+Touchpoints: QR Code, Resturaunt Website (via widget)
+
+Stage 3:
+Enhanced Customer Experience
 Application for Android and iOS
 Touchpoints: QR Code, Resturaunt Website, App
 
-Tiers
-Menu hosting / in app - $9 / month
-Website redirect - $20 / month
+Pricing Tiers
+Menu hosting / In app - $9 / month
+(Widget Based) Website redirect - $25 / month
+Email updates - +5 / month
 
-
-
-Objectives:
-
-
-
-
-  By inputting the menu items into a database we can automate
-
-General:
-- Determine fair cost
-- Research prospective customers
-- Find tech support, server admins and data entry
-
-Finish MVP 6/23
-- Email Workflow
-- Admin Workflow
-- NGNIX Server
-- On Site JavaScript
-
-Sign up 10 beta customers 7/4
-- Type up apps for potential customers
-
-
-Iterate product, advance features 7/14
-
-Make sales site 7/21
-
-Conduct advertising 8/1
-
-Make search site 8/1
-
-Do consumer beta reachout 8/4
-
-
+Questions
+How to determine fair price?
+What point do I bring this to owners?
+What sort of accounting should I do?
+LLC? Sole-prop?
 

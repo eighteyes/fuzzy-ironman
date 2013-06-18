@@ -31,8 +31,8 @@ mobmen.init(function(){
     app.use(express.bodyParser());
     app.use(express.logger('dev'));
     app.use(express.methodOverride());
-    app.use(app.router);
     app.use(express.static(mobmen.conf.publicDir));
+    app.use(app.router);
 
     // TODO: replace with ngnix front - serves exports dir
     app.use(express.static(path.join(__dirname, "exports")));
@@ -58,6 +58,13 @@ mobmen.init(function(){
       }
     });
   });
+
+  app.get('/api/menus/:id', function ( req, res ){
+    return mobmen.menus.findById( req.params.id, function (err, menu) {
+      if (err) return console.error(err);
+      return res.send(menu);
+    })
+  })
 
   app.post('/api/menus', function ( req, res ){
     console.log('POST:', req.body);

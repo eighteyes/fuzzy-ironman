@@ -17,7 +17,7 @@
         <expanded-item-notes idrefs="t43 t7"/>
         <selected-items-at-filter-time idrefs="t26 t45 t8 t13 t32 t46 t14 t33 t52 t28 t47 t15 t53 t40 t48 t54 t49 t17 t23 t2 t42 t10 t18 t3 t4 t43 t11 t30 t38 t5 t6 t44 t12 t31 t39 t7"/>
       </outline>
-      <gantt-view x="27" y="0" w="1358" h="872">
+      <gantt-view x="12" y="0" w="1358" h="872">
         <view-mode>actual</view-mode>
         <critical-path/>
         <dependency-lines/>
