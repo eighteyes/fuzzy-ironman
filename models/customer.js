@@ -7,6 +7,7 @@ var Customer = new Schema({
   address: String,
   phone: String,
   info: String,
+  email: String,
   created: Date,
   updated: Date
 });

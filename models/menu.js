@@ -23,7 +23,8 @@ var Menu = new Schema({
   items: [Items],
   sections: [Sections],
   created: Date,
-  updated: Date
+  updated: Date,
+  url: String
 });
 
 module.exports = Menu;

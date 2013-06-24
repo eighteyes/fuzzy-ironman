@@ -1,12 +1,12 @@
 var http = require('http')
   , fs = require('fs')
-  , util = require('util')
   , exists = require('./plugins').exists
   , express = require('express')
   , app = express()
   , mobmen = require('mobmen')
   , path = require('path')
   , mongoose = require('mongoose')
+  , _ = require('underscore');
 
 mobmen.init(function(){
 
@@ -15,7 +15,7 @@ mobmen.init(function(){
 
   mobmen.conf.webPort = 8124;
   mobmen.conf.smtpPort = 587;
-  mobmen.conf.publicDir = path.join(__dirname, "public", "app")
+  mobmen.conf.publicDir = path.join(__dirname, 'public', 'app')
 
   // start server
   http.createServer(app).listen(mobmen.conf.webPort, function(err) {
@@ -35,15 +35,10 @@ mobmen.init(function(){
     app.use(app.router);
 
     // TODO: replace with ngnix front - serves exports dir
-    app.use(express.static(path.join(__dirname, "exports")));
+    app.use(express.static(path.join(__dirname, 'exports')));
 
     app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
 
-  });
-
-
-  app.get('/', function ( req, res ){
-    res.sendfile(mobmen.conf.publicDir + '/index.html');
   });
 
   app.get('/api', function ( req, res ){
@@ -61,8 +56,21 @@ mobmen.init(function(){
 
   app.get('/api/menus/:id', function ( req, res ){
     return mobmen.menus.findById( req.params.id, function (err, menu) {
-      if (err) return console.error(err);
+      if (err) { return console.error(err); }
       return res.send(menu);
+    });
+  });
+
+  app.put('/api/menus/:id', function ( req, res ){
+    return mobmen.menus.findById( req.params.id, function (err, menu) {
+      if (err) {return console.error(err);}
+      _.extend(menu, req.body);
+      console.log('menu:', menu);
+      return menu.save( function (err) {
+        if (err) { return console.error(err); }
+        console.log( 'menu updated' );
+        return res.send(menu);
+      })
     })
   })
 
@@ -76,18 +84,47 @@ mobmen.init(function(){
       updated: Date.now()
     });
     menu.save( function(err){
-      if (err) return console.log(err)
-      console.log("menu created");
+      if (err) { return console.log(err); }
+      console.log('menu created');
+      return res.send(menu);
     });
-    return res.send(menu);
   });
 
-  app.get('/api/locations', function(){
-
+  app.get('/api/locations', function ( req, res ){
+    return mobmen.locations.find(function (err, locations){
+      if (err) { return console.log(err); }
+      else {
+        return res.send(locations);
+      }
+    });
   });
 
-  app.get('/api/customers', function(){
+  app.get('/api/locations/:id', function ( req, res ){
+    return mobmen.locations.findById( req.params.id, function (err, locations){
+      if (err) { return console.log(err); }
+      else {
+        return res.send(locations);
+      }
+    });
+  });
 
+  app.get('/api/customers', function ( req, res ){
+    console.log("Get Customers");
+    return mobmen.customers.find(function (err, customers){
+      if (err) { return console.log(err); }
+      else {
+        return res.send(customers);
+      }
+    });
+  });
+
+  app.get('/api/customers/:id', function ( req, res ){
+    return mobmen.customers.findById( req.params.id, function (err, customer){
+      if (err) { return console.log(err); }
+      else {
+        return res.send(customer);
+      }
+    });
   });
 
   require('./models');

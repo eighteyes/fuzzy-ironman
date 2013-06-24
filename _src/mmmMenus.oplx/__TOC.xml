@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="240" y="34" w="1680" h="1024">
+  <window x="0" y="4" w="1920" h="1054">
     <editing-scenario>e5t9Oz0o34i</editing-scenario>
     <view>task</view>
     <overview/>
@@ -8,16 +8,16 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="306" h="872">
+      <outline x="0" y="0" w="306" h="902">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="191"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t30 t4 t23 t13 t26 t7 t5 t38 t8 t31 t1"/>
-        <expanded-item-notes idrefs="t43 t7"/>
-        <selected-items-at-filter-time idrefs="t26 t45 t8 t13 t32 t46 t14 t33 t52 t28 t47 t15 t53 t40 t48 t54 t49 t17 t23 t2 t42 t10 t18 t3 t4 t43 t11 t30 t38 t5 t6 t44 t12 t31 t39 t7"/>
+        <expanded-items idrefs="t30 t13 t8 t4 t38 t5 t31 t1 t23 t2 t26 t7"/>
+        <expanded-item-notes idrefs="t43 t64 t7"/>
+        <selected-items-at-filter-time idrefs="t39 t26 t45 t8 t13 t32 t64 t70 t46 t14 t65 t33 t52 t28 t47 t15 t66 t53 t40 t48 t67 t54 t49 t60 t68 t17 t2 t23 t42 t10 t61 t18 t3 t69 t4 t43 t11 t62 t30 t38 t5 t44 t12 t63 t31 t6 t7"/>
       </outline>
-      <gantt-view x="12" y="0" w="1358" h="872">
+      <gantt-view x="-159" y="0" w="1598" h="902">
         <view-mode>actual</view-mode>
         <critical-path/>
         <dependency-lines/>
@@ -63,14 +63,14 @@
     </task-view>
     <resource-view>
       <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="306" h="917">
+      <outline x="0" y="0" w="291" h="872">
         <column name="IM" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="121"/>
         <column name="#" width="75"/>
       </outline>
-      <timeline x="-53" y="0" w="1509" h="917">
+      <timeline x="-53" y="0" w="1330" h="872">
         <task-bar-label task-type="group" position="left">
           <key>Title</key>
         </task-bar-label>
@@ -112,7 +112,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="290" h="882">
+      <outline x="0" y="0" w="275" h="837">
         <column name="IM" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
@@ -124,7 +124,7 @@
   </window>
   <project>
     <title>mmmMenus</title>
-    <next-task-id>60</next-task-id>
+    <next-task-id>73</next-task-id>
     <next-resource-id>3</next-resource-id>
     <scenario id="e5t9Oz0o34i" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
@@ -200,6 +200,33 @@
         </value>
       </style>
     </not-editable-style>
+    <publish>
+      <key>filePath</key>
+      <string>/Users/god/Desktop/mmmMenus.ics</string>
+      <key>fileType</key>
+      <string>ICAL</string>
+      <key>active</key>
+      <string>NO</string>
+      <key>class</key>
+      <string>OPExportAction</string>
+      <key>asMultipleEvents</key>
+      <integer>0</integer>
+      <key>uuid</key>
+      <string>cwijqZFk_w2</string>
+    </publish>
+    <publish>
+      <key>serverAccount</key>
+      <string>fzF2Nd9blLD</string>
+      <key>active</key>
+      <string>YES</string>
+      <key>serverURL</key>
+      <string>https://www.google.com:443/calendar/dav/eighteyes%40gmail.com/user</string>
+      <key>class</key>
+      <string>OPCalDavSyncEventsAction</string>
+      <key>uuid</key>
+      <string>a1rTzzH5PQD</string>
+    </publish>
+    <publish-on-save/>
     <subscribe-refresh>0</subscribe-refresh>
     <leveling>
       <minimum-split-duration>7200</minimum-split-duration>

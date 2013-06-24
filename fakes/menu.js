@@ -1,4 +1,4 @@
-module.exports = {
+var fakeMenu = {
   style : { bgColor: '#000000', fgColor: '#996600'},
   sections :
   [
@@ -46,3 +46,12 @@ module.exports = {
   }
   ]
 };
+
+
+module.exports = {
+  created: Date.now(),
+  updated: Date.now(),
+  json: JSON.stringify(fakeMenu),
+  url: 'test-menu.html'
+}
+

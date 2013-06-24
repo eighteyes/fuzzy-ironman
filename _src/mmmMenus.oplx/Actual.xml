@@ -109,7 +109,6 @@
     <child-task idref="t23"/>
     <child-task idref="t26"/>
     <child-task idref="t8"/>
-    <child-task idref="t2"/>
     <child-task idref="t13"/>
     <child-task idref="t48"/>
   </task>
@@ -121,20 +120,27 @@
     <child-task idref="t43"/>
   </task>
   <task id="t2">
-    <title>Customer Acquisition</title>
-    <type>milestone</type>
-    <start-constraint-date>2013-06-21T18:00:00.000Z</start-constraint-date>
+    <title>Customer Research</title>
+    <type>group</type>
+    <start-constraint-date>2013-06-19T18:00:00.000Z</start-constraint-date>
+    <child-task idref="t60"/>
+    <child-task idref="t68"/>
+    <child-task idref="t61"/>
+    <child-task idref="t69"/>
+    <child-task idref="t66"/>
+    <child-task idref="t72"/>
+    <child-task idref="t67"/>
   </task>
   <task id="t3">
     <title>Sessions + Users</title>
     <effort>43200</effort>
-    <start-constraint-date>2013-06-13T21:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-22T18:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t40"/>
   </task>
   <task id="t4">
     <title>Mobile Skins</title>
     <type>group</type>
-    <start-constraint-date>2013-06-15T13:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-25T04:00:00.000Z</start-constraint-date>
     <child-task idref="t31"/>
     <child-task idref="t32"/>
     <child-task idref="t33"/>
@@ -144,20 +150,19 @@
   <task id="t5">
     <title>Admin Workflow</title>
     <type>group</type>
-    <start-constraint-date>2013-06-16T18:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-22T00:00:00.000Z</start-constraint-date>
     <child-task idref="t40"/>
     <child-task idref="t3"/>
   </task>
   <task id="t6">
     <title>NGNIX integration</title>
     <effort>14400</effort>
-    <start-constraint-date>2013-06-18T17:00:00.000Z</start-constraint-date>
-    <prerequisite-task idref="t5"/>
+    <start-constraint-date>2013-06-27T17:00:00.000Z</start-constraint-date>
   </task>
   <task id="t7">
     <title>Deploy</title>
     <type>group</type>
-    <start-constraint-date>2013-06-18T23:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-27T22:00:00.000Z</start-constraint-date>
     <child-task idref="t52"/>
     <child-task idref="t53"/>
     <child-task idref="t54"/>
@@ -176,7 +181,7 @@
   <task id="t8">
     <title>Marketing Materials</title>
     <type>group</type>
-    <start-constraint-date>2013-06-21T18:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-27T22:00:00.000Z</start-constraint-date>
     <child-task idref="t12"/>
     <child-task idref="t10"/>
     <child-task idref="t11"/>
@@ -188,51 +193,60 @@
   <task id="t10">
     <title>Biz  cards</title>
     <effort>10800</effort>
-    <start-constraint-date>2013-06-21T19:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-27T22:00:00.000Z</start-constraint-date>
   </task>
   <task id="t11">
     <title>Website</title>
     <effort>10800</effort>
-    <start-constraint-date>2013-06-24T18:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-29T18:00:00.000Z</start-constraint-date>
   </task>
   <task id="t12">
     <title>naming</title>
     <effort>10800</effort>
-    <start-constraint-date>2013-06-24T23:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-30T19:00:00.000Z</start-constraint-date>
   </task>
   <task id="t13">
-    <title>admin</title>
+    <title>Biz Dev</title>
     <type>group</type>
-    <start-constraint-date>2013-06-08T21:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-12T23:00:00.000Z</start-constraint-date>
+    <child-task idref="t2"/>
+    <child-task idref="t64"/>
     <child-task idref="t28"/>
     <child-task idref="t14"/>
     <child-task idref="t17"/>
     <child-task idref="t18"/>
     <child-task idref="t15"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.380392" g="0.694118" b="0.490196"/>
+      </value>
+    </style>
   </task>
   <task id="t14">
     <title>talk to cpa</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <start-constraint-date>2013-06-17T17:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t28"/>
   </task>
   <task id="t15">
     <title>cash checks</title>
+    <splittable>no</splittable>
     <effort>28800</effort>
-    <start-constraint-date>2013-06-26T18:00:00.000Z</start-constraint-date>
-    <prerequisite-task idref="t2"/>
+    <start-constraint-date>2013-07-09T19:00:00.000Z</start-constraint-date>
   </task>
   <task id="t17">
     <title>deal with forms</title>
+    <splittable>no</splittable>
     <effort>14400</effort>
-    <locked-end-date>2013-06-24T17:45:00.000Z</locked-end-date>
-    <start-constraint-date>2013-06-20T17:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-07-08T17:00:00.000Z</start-constraint-date>
     <recalculate>effort</recalculate>
   </task>
   <task id="t18">
     <title>submit forms</title>
+    <splittable>no</splittable>
     <effort>10800</effort>
-    <start-constraint-date>2013-06-26T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-07-09T04:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t17"/>
   </task>
   <task id="t23">
@@ -246,7 +260,7 @@
   <task id="t26">
     <title>ops</title>
     <type>group</type>
-    <start-constraint-date>2013-06-18T17:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-27T17:00:00.000Z</start-constraint-date>
     <child-task idref="t6"/>
     <child-task idref="t44"/>
     <child-task idref="t45"/>
@@ -266,45 +280,45 @@
   <task id="t30">
     <title>Payment Options</title>
     <type>group</type>
-    <start-constraint-date>2013-06-21T17:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-27T19:00:00.000Z</start-constraint-date>
     <child-task idref="t46"/>
     <child-task idref="t47"/>
   </task>
   <task id="t31">
     <title>scripts</title>
     <type>group</type>
-    <start-constraint-date>2013-06-15T13:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-25T04:00:00.000Z</start-constraint-date>
     <child-task idref="t38"/>
     <child-task idref="t39"/>
   </task>
   <task id="t32">
     <title>styles</title>
     <effort>18000</effort>
-    <start-constraint-date>2013-06-17T18:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-26T18:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t39"/>
   </task>
   <task id="t33">
     <title>structures</title>
     <effort>7200</effort>
-    <start-constraint-date>2013-06-18T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-27T00:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t32"/>
   </task>
   <task id="t38">
     <title>generic</title>
     <effort>21600</effort>
-    <start-constraint-date>2013-06-15T13:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-25T04:00:00.000Z</start-constraint-date>
   </task>
   <task id="t39">
     <title>clientside</title>
     <effort>14400</effort>
-    <start-constraint-date>2013-06-15T19:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-25T23:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t38"/>
   </task>
   <task id="t40">
     <title>CRUD Records</title>
     <effort>10800</effort>
     <effort-done>7200</effort-done>
-    <start-constraint-date>2013-06-14T18:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-22T04:00:00.000Z</start-constraint-date>
   </task>
   <task id="t42">
     <title>Start with tests</title>
@@ -317,16 +331,14 @@
   </task>
   <task id="t43">
     <title>run email server</title>
-    <split/>
     <effort>25200</effort>
     <effort-done>10800</effort-done>
-    <child-task idref="t58"/>
-    <child-task idref="t59"/>
+    <start-constraint-date>2013-06-13T19:00:00.000Z</start-constraint-date>
     <note>
       <text>
         <p>
           <run>
-            <lit>still have to put in db</lit>
+            <lit>still have to write to db</lit>
           </run>
         </p>
       </text>
@@ -339,92 +351,112 @@
   <task id="t44">
     <title>Research hosting options</title>
     <effort>7200</effort>
-    <start-constraint-date>2013-06-18T17:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-27T17:00:00.000Z</start-constraint-date>
   </task>
   <task id="t45">
     <title>Develop scale strategy</title>
     <effort>10800</effort>
-    <start-constraint-date>2013-06-18T21:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-27T19:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t44"/>
   </task>
   <task id="t46">
     <title>Find Square</title>
     <effort>3600</effort>
-    <start-constraint-date>2013-06-21T17:00:00.000Z</start-constraint-date>
-    <prerequisite-task idref="t2" kind="FF"/>
+    <start-constraint-date>2013-06-27T19:00:00.000Z</start-constraint-date>
   </task>
   <task id="t47">
     <title>Implement Recurly</title>
     <effort>14400</effort>
-    <start-constraint-date>2013-06-22T17:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-28T19:00:00.000Z</start-constraint-date>
   </task>
   <task id="t48">
     <title>Launch Beta / Iterate</title>
     <type>milestone</type>
-    <start-constraint-date>2013-06-22T22:00:00.000Z</start-constraint-date>
+    <splittable>no</splittable>
+    <start-constraint-date>2013-07-10T19:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t15"/>
   </task>
   <task id="t49">
     <title>content</title>
     <effort>10800</effort>
-    <start-constraint-date>2013-06-21T23:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2013-06-28T04:00:00.000Z</start-constraint-date>
   </task>
   <task id="t52">
     <title>Email</title>
     <effort>28800</effort>
+    <start-constraint-date>2013-06-27T22:00:00.000Z</start-constraint-date>
   </task>
   <task id="t53">
     <title>NGNIX</title>
     <effort>28800</effort>
+    <start-constraint-date>2013-06-28T22:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t52"/>
   </task>
   <task id="t54">
     <title>VM&apos;s</title>
     <effort>10800</effort>
+    <start-constraint-date>2013-06-30T18:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t53"/>
   </task>
-  <task id="t58">
-    <title>run email server</title>
-    <effort>10800</effort>
-    <effort-done>10800</effort-done>
-    <start-constraint-date>2013-06-12T23:00:00.000Z</start-constraint-date>
+  <task id="t60">
+    <title>Build Data for Aptos</title>
+    <effort>7200</effort>
+    <start-constraint-date>2013-06-19T17:00:00.000Z</start-constraint-date>
+  </task>
+  <task id="t61">
+    <title>Write Scripts</title>
+    <effort>3600</effort>
+    <start-constraint-date>2013-06-19T17:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t68"/>
+  </task>
+  <task id="t64">
+    <title>Fill Out Biz Model Canvas</title>
+    <effort>28800</effort>
+    <start-constraint-date>2013-06-19T17:00:00.000Z</start-constraint-date>
     <note>
       <text>
         <p>
           <run>
-            <lit>still have to put in db</lit>
+            <lit>https://docs.google.com/drawings/d/1zA7egjYYV6SGgQtHKfSbDACazN50NOwm5DOaGtnTVTc/edit?usp=sharing</lit>
           </run>
         </p>
       </text>
     </note>
-    <style>
-      <value key="font-size">13</value>
-    </style>
   </task>
-  <task id="t59">
-    <title>run email server</title>
+  <task id="t66">
+    <title>Build Data for SC</title>
     <effort>14400</effort>
-    <start-constraint-date>2013-06-18T18:00:00.000Z</start-constraint-date>
-    <note>
-      <text>
-        <p>
-          <run>
-            <lit>still have to put in db</lit>
-          </run>
-        </p>
-      </text>
-    </note>
-    <style>
-      <value key="font-size">13</value>
-    </style>
+    <start-constraint-date>2013-06-19T17:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t69"/>
   </task>
-  <critical-path root="-1" enabled="true" resources="false">
+  <task id="t67">
+    <title>Refine Scripts</title>
+    <effort>3600</effort>
+    <start-constraint-date>2013-06-19T17:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t72"/>
+  </task>
+  <task id="t68">
+    <title>Call targets, find times</title>
+    <effort>3600</effort>
+    <start-constraint-date>2013-06-19T17:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t60"/>
+  </task>
+  <task id="t69">
+    <title>Visit and meet owners</title>
+    <effort>28800</effort>
+    <start-constraint-date>2013-06-20T18:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t61"/>
+  </task>
+  <task id="t72">
+    <title>Call targets, find times</title>
+    <effort>7200</effort>
+    <start-constraint-date>2013-06-19T17:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t66"/>
+  </task>
+  <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
   </critical-path>
-  <critical-path root="2" enabled="true" resources="false">
-    <color h="0.4" s="0.5" v="0.8"/>
-  </critical-path>
-  <critical-path root="48" enabled="true" resources="false">
+  <critical-path root="48" enabled="false" resources="false">
     <color h="0.6" s="0.5" v="0.8"/>
   </critical-path>
 </scenario>

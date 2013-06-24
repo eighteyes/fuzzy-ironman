@@ -516,7 +516,7 @@
       <change idref="t58" attribute="effort" type="real" from="28800" to="10800"/>
       <change idref="t58" attribute="internalEffortDone" type="real" from="0" to="10800"/>
       <change idref="t58" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t58" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMTM4XGNvY29hc3VicnRmNTEwCntcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQyN1xncmVlbjIwNlxibHVlMjM2O1xyZWQ0MFxncmVlbjQwXGJsdWU0MDt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbAoKXGYwXGZzMjIgXGNmMiBcY2IzIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIHN0aWxsIGhhdmUgdG8gcHV0IGluIGRifQ=="/>
+      <change idref="t58" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMTM4XGNvY29hc3VicnRmNTEwCntcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQyN1xncmVlbjIwNlxibHVlMjM2O1xyZWQ0MFxncmVlbjQwXGJsdWU0MDt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbAoKXGYwXGZzMjIgXGNmMiBcY2IzIHN0aWxsIGhhdmUgdG8gcHV0IGluIGRifQ=="/>
       <change idref="t58" attribute="startConstraintDate" type="date" to="2013-06-12T23:00:00.000Z"/>
       <change idref="t58" attribute="styleDict" type="dict" to="{
     &quot;font-size&quot; = 13;
@@ -526,7 +526,7 @@
     <change idref="t59" to="t43" to-position="1" resolved="yes">
       <change idref="t59" attribute="effort" type="real" from="28800" to="3600"/>
       <change idref="t59" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t59" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMTM4XGNvY29hc3VicnRmNTEwCntcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQyN1xncmVlbjIwNlxibHVlMjM2O1xyZWQ0MFxncmVlbjQwXGJsdWU0MDt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbAoKXGYwXGZzMjIgXGNmMiBcY2IzIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIHN0aWxsIGhhdmUgdG8gcHV0IGluIGRifQ=="/>
+      <change idref="t59" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMTM4XGNvY29hc3VicnRmNTEwCntcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQyN1xncmVlbjIwNlxibHVlMjM2O1xyZWQ0MFxncmVlbjQwXGJsdWU0MDt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbAoKXGYwXGZzMjIgXGNmMiBcY2IzIHN0aWxsIGhhdmUgdG8gcHV0IGluIGRifQ=="/>
       <change idref="t59" attribute="startConstraintDate" type="date" to="2013-06-14T23:00:00.000Z"/>
       <change idref="t59" attribute="styleDict" type="dict" to="{
     &quot;font-size&quot; = 13;
@@ -547,6 +547,155 @@
     <change idref="t43" attribute="effort" type="real" from="14400" to="25200" resolved="yes"/>
     <change idref="t59" attribute="startConstraintDate" type="date" from="2013-06-14T23:00:00.000Z" to="2013-06-18T18:00:00.000Z" resolved="yes"/>
     <change idref="t59" attribute="effort" type="real" from="3600" to="14400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Sean Canton" date="2013-06-19T23:09:15.963Z" timestamp="2013-06-19T23:09:15.963Z">
+    <change idref="t-1" attribute="criticalPathProperties" type="dict" from="{
+    color =     {
+        b = &quot;0.5&quot;;
+        g = &quot;0.5&quot;;
+        r = 1;
+    };
+    enabled = 1;
+    root = &quot;-1&quot;;
+}" to="{
+    color =     {
+        b = &quot;0.5&quot;;
+        g = &quot;0.5&quot;;
+        r = 1;
+    };
+    enabled = 0;
+    root = &quot;-1&quot;;
+}" resolved="yes"/>
+    <change idref="t3" attribute="startConstraintDate" type="date" from="2013-06-13T21:00:00.000Z" to="2013-06-22T18:00:00.000Z" resolved="yes"/>
+    <change idref="t4" attribute="startConstraintDate" type="date" from="2013-06-15T13:00:00.000Z" to="2013-06-25T04:00:00.000Z" resolved="yes"/>
+    <change idref="t5" attribute="startConstraintDate" type="date" from="2013-06-16T18:00:00.000Z" to="2013-06-22T00:00:00.000Z" resolved="yes"/>
+    <change idref="t6" attribute="startConstraintDate" type="date" from="2013-06-18T17:00:00.000Z" to="2013-06-27T17:00:00.000Z" resolved="yes"/>
+    <change idref="t6" attribute="internalPrerequisitesString" type="string" from="5FS" resolved="yes"/>
+    <change idref="t7" attribute="startConstraintDate" type="date" from="2013-06-18T23:00:00.000Z" to="2013-06-27T22:00:00.000Z" resolved="yes"/>
+    <change idref="t8" attribute="startConstraintDate" type="date" from="2013-06-21T18:00:00.000Z" to="2013-06-27T22:00:00.000Z" resolved="yes"/>
+    <change idref="t10" attribute="startConstraintDate" type="date" from="2013-06-21T19:00:00.000Z" to="2013-06-27T22:00:00.000Z" resolved="yes"/>
+    <change idref="t11" attribute="startConstraintDate" type="date" from="2013-06-24T18:00:00.000Z" to="2013-06-29T18:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="startConstraintDate" type="date" from="2013-06-24T23:00:00.000Z" to="2013-06-30T19:00:00.000Z" resolved="yes"/>
+    <change idref="t13" attribute="startConstraintDate" type="date" from="2013-06-08T21:00:00.000Z" to="2013-06-12T23:00:00.000Z" resolved="yes"/>
+    <change idref="t13" attribute="title" type="string" from="admin" to="Biz Dev" resolved="yes"/>
+    <change idref="t13" attribute="styleDict" type="dict" to="{
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.490196&quot;;
+        g = &quot;0.694118&quot;;
+        r = &quot;0.380392&quot;;
+    };
+}" resolved="yes"/>
+    <change idref="t2" to="t13" to-position="0" resurrection="yes" resolved="yes">
+      <change idref="t2" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2" attribute="startConstraintDate" type="date" to="2013-06-19T18:00:00.000Z"/>
+      <change idref="t2" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2" attribute="title" type="string" to="Customer Research"/>
+    </change>
+    <change idref="t64" to="t13" to-position="1" resolved="yes">
+      <change idref="t64" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMTM4XGNvY29hc3VicnRmNTEwCntcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQyN1xncmVlbjIwNlxibHVlMjM2O1xyZWQ0MFxncmVlbjQwXGJsdWU0MDt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbAoKXGYwXGZzMjIgXGNmMiBcY2IzIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIGh0dHBzOi8vZG9jcy5nb29nbGUuY29tL2RyYXdpbmdzL2QvMXpBN2VnallZVjZTR2dRdEhLZlNiREFDYXpONTBOT3dtNURPYUd0blRWVGMvZWRpdD91c3A9c2hhcmluZ30="/>
+      <change idref="t64" attribute="startConstraintDate" type="date" to="2013-06-19T17:00:00.000Z"/>
+      <change idref="t64" attribute="title" type="string" to="Fill Out Biz Model Canvas"/>
+    </change>
+    <change idref="t14" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t15" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t15" attribute="startConstraintDate" type="date" from="2013-06-26T18:00:00.000Z" to="2013-07-09T19:00:00.000Z" resolved="yes"/>
+    <change idref="t15" attribute="internalPrerequisitesString" type="string" from="2FS" resolved="yes"/>
+    <change idref="t17" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t17" attribute="endLockedDate" type="date" from="2013-06-24T17:45:00.000Z" resolved="yes"/>
+    <change idref="t17" attribute="startConstraintDate" type="date" from="2013-06-20T17:00:00.000Z" to="2013-07-08T17:00:00.000Z" resolved="yes"/>
+    <change idref="t18" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t18" attribute="startConstraintDate" type="date" from="2013-06-26T00:00:00.000Z" to="2013-07-09T04:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="startConstraintDate" type="date" from="2013-06-18T17:00:00.000Z" to="2013-06-27T17:00:00.000Z" resolved="yes"/>
+    <change idref="t30" attribute="startConstraintDate" type="date" from="2013-06-21T17:00:00.000Z" to="2013-06-27T19:00:00.000Z" resolved="yes"/>
+    <change idref="t31" attribute="startConstraintDate" type="date" from="2013-06-15T13:00:00.000Z" to="2013-06-25T04:00:00.000Z" resolved="yes"/>
+    <change idref="t32" attribute="startConstraintDate" type="date" from="2013-06-17T18:00:00.000Z" to="2013-06-26T18:00:00.000Z" resolved="yes"/>
+    <change idref="t33" attribute="startConstraintDate" type="date" from="2013-06-18T00:00:00.000Z" to="2013-06-27T00:00:00.000Z" resolved="yes"/>
+    <change idref="t38" attribute="startConstraintDate" type="date" from="2013-06-15T13:00:00.000Z" to="2013-06-25T04:00:00.000Z" resolved="yes"/>
+    <change idref="t39" attribute="startConstraintDate" type="date" from="2013-06-15T19:00:00.000Z" to="2013-06-25T23:00:00.000Z" resolved="yes"/>
+    <change idref="t40" attribute="startConstraintDate" type="date" from="2013-06-14T18:00:00.000Z" to="2013-06-22T04:00:00.000Z" resolved="yes"/>
+    <change idref="t43" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMTM4XGNvY29hc3VicnRmNTEwCntcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQyN1xncmVlbjIwNlxibHVlMjM2O1xyZWQ0MFxncmVlbjQwXGJsdWU0MDt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbAoKXGYwXGZzMjIgXGNmMiBcY2IzIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIHN0aWxsIGhhdmUgdG8gcHV0IGluIGRifQ==" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMTM4XGNvY29hc3VicnRmNTEwCntcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQyN1xncmVlbjIwNlxibHVlMjM2O1xyZWQ0MFxncmVlbjQwXGJsdWU0MDt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbAoKXGYwXGZzMjIgXGNmMiBcY2IzIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIHN0aWxsIGhhdmUgdG8gd3JpdGUgdG8gZGJ9" resolved="yes"/>
+    <change idref="t43" attribute="startConstraintDate" type="date" to="2013-06-13T19:00:00.000Z" resolved="yes"/>
+    <change idref="t43" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t59" from="t43" from-position="1" resolved="yes">
+      <change idref="t59" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t59" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t59" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMTM4XGNvY29hc3VicnRmNTEwCntcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQyN1xncmVlbjIwNlxibHVlMjM2O1xyZWQ0MFxncmVlbjQwXGJsdWU0MDt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbAoKXGYwXGZzMjIgXGNmMiBcY2IzIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIHN0aWxsIGhhdmUgdG8gcHV0IGluIGRifQ=="/>
+      <change idref="t59" attribute="startConstraintDate" type="date" to="2013-06-18T18:00:00.000Z"/>
+      <change idref="t59" attribute="styleDict" type="dict" to="{
+    &quot;font-size&quot; = 13;
+}"/>
+      <change idref="t59" attribute="title" type="string" to="run email server #2"/>
+    </change>
+    <change idref="t58" from="t43" from-position="0" resolved="yes">
+      <change idref="t58" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t58" attribute="internalEffortDone" type="real" from="0" to="10800"/>
+      <change idref="t58" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t58" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxMTM4XGNvY29hc3VicnRmNTEwCntcZm9udHRibFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZldGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQyN1xncmVlbjIwNlxibHVlMjM2O1xyZWQ0MFxncmVlbjQwXGJsdWU0MDt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbAoKXGYwXGZzMjIgXGNmMiBcY2IzIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIHN0aWxsIGhhdmUgdG8gcHV0IGluIGRifQ=="/>
+      <change idref="t58" attribute="startConstraintDate" type="date" to="2013-06-12T23:00:00.000Z"/>
+      <change idref="t58" attribute="styleDict" type="dict" to="{
+    &quot;font-size&quot; = 13;
+}"/>
+      <change idref="t58" attribute="title" type="string" to="run email server #1"/>
+    </change>
+    <change idref="t44" attribute="startConstraintDate" type="date" from="2013-06-18T17:00:00.000Z" to="2013-06-27T17:00:00.000Z" resolved="yes"/>
+    <change idref="t45" attribute="startConstraintDate" type="date" from="2013-06-18T21:00:00.000Z" to="2013-06-27T19:00:00.000Z" resolved="yes"/>
+    <change idref="t46" attribute="startConstraintDate" type="date" from="2013-06-21T17:00:00.000Z" to="2013-06-27T19:00:00.000Z" resolved="yes"/>
+    <change idref="t46" attribute="internalPrerequisitesString" type="string" from="2FF" resolved="yes"/>
+    <change idref="t47" attribute="startConstraintDate" type="date" from="2013-06-22T17:00:00.000Z" to="2013-06-28T19:00:00.000Z" resolved="yes"/>
+    <change idref="t48" attribute="startConstraintDate" type="date" from="2013-06-22T22:00:00.000Z" to="2013-07-10T19:00:00.000Z" resolved="yes"/>
+    <change idref="t48" attribute="criticalPathProperties" type="dict" to="{
+    color =     {
+        h = &quot;0.6&quot;;
+        s = &quot;0.5&quot;;
+        v = &quot;0.8&quot;;
+    };
+    enabled = 0;
+    root = 48;
+}" resolved="yes"/>
+    <change idref="t49" attribute="startConstraintDate" type="date" from="2013-06-21T23:00:00.000Z" to="2013-06-28T04:00:00.000Z" resolved="yes"/>
+    <change idref="t52" attribute="startConstraintDate" type="date" to="2013-06-27T22:00:00.000Z" resolved="yes"/>
+    <change idref="t53" attribute="startConstraintDate" type="date" to="2013-06-28T22:00:00.000Z" resolved="yes"/>
+    <change idref="t54" attribute="startConstraintDate" type="date" to="2013-06-30T18:00:00.000Z" resolved="yes"/>
+    <change idref="t60" to="t2" to-position="0" resolved="yes">
+      <change idref="t60" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t60" attribute="startConstraintDate" type="date" to="2013-06-19T17:00:00.000Z"/>
+      <change idref="t60" attribute="title" type="string" to="Build Data for Aptos"/>
+    </change>
+    <change idref="t68" to="t2" to-position="1" resolved="yes">
+      <change idref="t68" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t68" attribute="internalPrerequisitesString" type="string" to="60FS"/>
+      <change idref="t68" attribute="startConstraintDate" type="date" to="2013-06-19T17:00:00.000Z"/>
+      <change idref="t68" attribute="title" type="string" to="Call targets, find times"/>
+    </change>
+    <change idref="t61" to="t2" to-position="2" resolved="yes">
+      <change idref="t61" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t61" attribute="internalPrerequisitesString" type="string" to="68FS"/>
+      <change idref="t61" attribute="startConstraintDate" type="date" to="2013-06-19T17:00:00.000Z"/>
+      <change idref="t61" attribute="title" type="string" to="Write Scripts"/>
+    </change>
+    <change idref="t69" to="t2" to-position="3" resolved="yes">
+      <change idref="t69" attribute="internalPrerequisitesString" type="string" to="61FS"/>
+      <change idref="t69" attribute="startConstraintDate" type="date" to="2013-06-20T18:00:00.000Z"/>
+      <change idref="t69" attribute="title" type="string" to="Visit and meet owners"/>
+    </change>
+    <change idref="t66" to="t2" to-position="4" resolved="yes">
+      <change idref="t66" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t66" attribute="internalPrerequisitesString" type="string" to="69FS"/>
+      <change idref="t66" attribute="startConstraintDate" type="date" to="2013-06-19T17:00:00.000Z"/>
+      <change idref="t66" attribute="title" type="string" to="Build Data for SC"/>
+    </change>
+    <change idref="t72" to="t2" to-position="5" resolved="yes">
+      <change idref="t72" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t72" attribute="internalPrerequisitesString" type="string" to="66FS"/>
+      <change idref="t72" attribute="startConstraintDate" type="date" to="2013-06-19T17:00:00.000Z"/>
+      <change idref="t72" attribute="title" type="string" to="Call targets, find times"/>
+    </change>
+    <change idref="t67" to="t2" to-position="6" resolved="yes">
+      <change idref="t67" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t67" attribute="internalPrerequisitesString" type="string" to="72FS"/>
+      <change idref="t67" attribute="startConstraintDate" type="date" to="2013-06-19T17:00:00.000Z"/>
+      <change idref="t67" attribute="title" type="string" to="Refine Scripts"/>
+    </change>
   </task-change-set>
   <resource-change-set user="Sean Canton" date="2013-06-12T10:15:24.864Z" timestamp="2013-06-12T10:15:24.864Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="50400,61200;36000,46800,50400,64800,75600,79200;36000,46800,50400,64800,75600,79200;36000,46800,50400,64800,75600,79200;36000,46800,50400,64800,75600,79200;36000,46800,50400,64800,75600,79200;21600,32400" resolved="yes"/>
